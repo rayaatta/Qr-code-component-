@@ -1,0 +1,104 @@
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+:root {
+    --light-gray:hsl(212, 45%, 89%);
+    --grayish-blue:hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%);
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:16px;
+    font-family:sans-serif;
+    text-align:center;
+    
+}
+body {
+    min-height:100vh;
+    background:var(--light-gray);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+main {
+    width:84%; 
+    
+    border-radius:10px;
+    background:#fff;
+}
+section {
+    margin:5%;
+}
+img {
+    width:100%;
+    border-radius:10px;
+}
+h1 {
+    margin-block:1rem;
+    font-size:1.4rem;
+}
+p {
+    color:var(--grayish-blue);
+}
+@media screen and (min-width:400) {
+ main{
+    width:80%;
+     }
+}
+@media screen and (min-width:500px) {
+    main {
+        width:70%;
+    }
+}
+@media screen and (min-width:600px) {
+    main {
+        width:60%;
+    }
+}
+@media scren and (min-width:700px) {
+    main {
+        width:50%;
+    }
+}
+@media only screen and (min-width:900px) {
+    main {
+        width:40%;
+    }
+}
+@media screen and (min-width:1000px) {
+    main {
+        width:30%;
+    }
+}
+@media screen and (min-width:1440px) {
+    main {
+        width:20%;
+    }
+}
